@@ -13,7 +13,7 @@
 
 Summary: Extension to work with the Memcached caching daemon
 Name: %{php_base}-pecl-memcache
-Version: 3.0.7
+Version: 3.0.8
 Release: 1.ius%{?dist}
 License: PHP
 Group: Development/Languages
@@ -125,6 +125,10 @@ fi
 
 
 %changelog
+* Mon Apr 08 2013 Ben Harper <ben.harper@rackspace.com> - 0:3.0.8-1.ius
+- Latest sources from upstream. Full changelog available at:
+  http://pecl.php.net/package-changelog.php?package=memcache&release=3.0.8
+
 * Mon Sep 24 2012 Ben Harper <ben.harper@rackspace.com> - 0:3.0.7-1.ius
 - Latest sources from upstream. Full changelog available at:
   http://pecl.php.net/package-changelog.php?package=memcache&release=3.0.7
